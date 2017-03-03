@@ -10,7 +10,7 @@ def bubble_sort(nums):
             if(nums[j] > nums[j+1]):
                 swap(nums, j, j+1)
                 swapped = True
-                print(nums)
+                print("               ", nums)
 
         if(not swapped):
             break

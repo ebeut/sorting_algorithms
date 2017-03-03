@@ -7,7 +7,7 @@ def insertion_sort(nums):
 
         while insert_position > 0 and nums[insert_position - 1] > value_to_insert:
             nums[insert_position] = nums[insert_position - 1]
-            insert_position = insert_position -1
+            insert_position = insert_position - 1
 
         nums[insert_position] = value_to_insert
         print("               ", nums)  # prints each iteration
