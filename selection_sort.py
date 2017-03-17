@@ -14,7 +14,7 @@ def selection_sort(nums):
                 min_index = j
 
         swap(nums, i, min_index)
-        print(nums)
+        print("               ", nums)
 
 
 def main():
